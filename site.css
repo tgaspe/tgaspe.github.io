@@ -217,6 +217,26 @@ a.tile:hover { border-color: var(--accent); filter: none; }
 .text-page p + p { margin-top: 16px; }
 .text-page p { color: var(--text-3); }
 
+/* Legal documents (privacy policy, terms, account deletion) */
+.legal h2 { font-size: 24px; margin: 40px 0 12px; }
+.legal h3 { font-size: 18px; margin: 28px 0 8px; color: var(--text-2); }
+.legal h2 + p, .legal h3 + p { margin-top: 0; }
+.legal p, .legal li, .legal td { overflow-wrap: anywhere; }
+.legal ul, .legal ol { margin: 12px 0; padding-left: 1.4em; color: var(--text-3); }
+.legal ul { list-style: disc; }
+.legal ol { list-style: decimal; }
+.legal li + li { margin-top: 6px; }
+.legal ul + p, .legal ol + p, .legal .table-scroll + p { margin-top: 16px; }
+.legal strong { color: var(--text-2); font-weight: 600; }
+.legal hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0 0; }
+.legal .updated { color: var(--text-dim); font-size: 14px; }
+.legal .callout { margin-top: 20px; padding: 14px 18px; border-left: 3px solid var(--accent); background: var(--band); border-radius: 0 12px 12px 0; }
+.legal .table-scroll { overflow-x: auto; margin: 12px 0; }
+.legal table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.legal th, .legal td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); color: var(--text-3); }
+.legal th { color: var(--text); font-weight: 600; }
+.legal .legal-nav { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--card); font-size: 14px; }
+
 @media (max-width: 720px) {
   .hero {
     background-image:
